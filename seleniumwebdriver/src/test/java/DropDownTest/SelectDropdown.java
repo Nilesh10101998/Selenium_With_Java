@@ -32,6 +32,7 @@ public class SelectDropdown {
 		 
 	    List<WebElement> options = drpcountry.getOptions(); //it will return the list of options of the dropdowns
 	    System.out.println("Number of options in the dropdown: " +options.size());
+//	    System.out.println(options);
 	    
 	    //Printing the options of the Dropdown
 	    
@@ -40,7 +41,7 @@ public class SelectDropdown {
 //	    	System.out.println(options.get(i).getText());
 //	    	
 //	    }
-	    
+	   
 	    //Printing the options of the dropdown by using the enhanced for loop
 	    
 	    for (WebElement opt : options) {

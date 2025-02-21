@@ -8,6 +8,7 @@ public class GetMethods {
 	
 	public static void main(String[] args) throws InterruptedException {
 		
+		
 		WebDriver driver = new ChromeDriver();
 		
 		//get method:- opens the URL on the browser
