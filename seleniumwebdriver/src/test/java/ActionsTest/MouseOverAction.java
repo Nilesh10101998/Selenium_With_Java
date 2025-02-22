@@ -18,7 +18,7 @@ public class MouseOverAction {
 		WebElement pointme = driver.findElement(By.xpath("//button[@class='dropbtn']"));
 		WebElement mobiles = driver.findElement(By.xpath("//div[@class='dropdown-content']//a[contains(text(),'Mobiles')]"));
 		
-		Actions act = new Actions(driver); //Declared action class 
+		Actions act = new Actions(driver); //Declared action class
 		
 		//Actions class methods should end with the build and perform method
 		
